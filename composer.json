@@ -1,0 +1,21 @@
+{
+  "name": "ilyabazhenov/dashboard_stat",
+  "description": "Package for easy access to dashboard graphics data",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ilya Bazhenov",
+      "email": "amio.env@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "nesbot/carbon": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "IlyaBazhenov\\DashboardStat\\": "src/"
+    }
+  }
+}
